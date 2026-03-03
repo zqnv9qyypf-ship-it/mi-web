@@ -1,4 +1,7 @@
 import Home from "@/pages/home/Home.vue";
+import About from "@/pages/about/About.vue";
+import Contact from "@/pages/contact/Contact.vue";
+import Projects from "@/pages/projects/Projects.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 
@@ -13,7 +16,22 @@ export const router = createRouter({
       component: Home
     },
     {
-      path: '/:patchMatch(.*)',
+      path: '/proyectos',
+      name: 'projects',
+      component: Projects
+    },
+    {
+      path: '/sobre-mi',
+      name: 'about',
+      component: About
+    },
+    {
+      path: '/contacto',
+      name: 'contact',
+      component: Contact
+    },
+    {
+      path: '/:pathMatch(.*)*',
       redirect: '/'
     }
   ]

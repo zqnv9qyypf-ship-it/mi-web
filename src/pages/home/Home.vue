@@ -1,15 +1,15 @@
-<script lang="ts" setup>
-
-
-</script>
-
 <template>
-
-<h1>Diseño web y apps interactivas</h1>
-
-
+  <div>
+    <Header />
+  </div>
 </template>
 
-<style scoped>
+<script lang="ts">
+import { defineComponent } from 'vue'
+import Header from '../../components/Header.vue'
 
-</style>
+export default defineComponent({
+  name: 'Home',
+  components: { Header }
+})
+</script>
