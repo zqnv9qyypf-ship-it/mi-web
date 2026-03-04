@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Armchair } from 'lucide-vue-next'
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
@@ -7,7 +8,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav class="w-full border-b border-black bg-white">
       <ul class="flex items-center">
         <li>
-          <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active">Home</RouterLink>
+          <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active" aria-label="Home">
+            <Armchair :size="20" class="menu-icon-home" />
+          </RouterLink>
         </li>
         <li>
           <RouterLink to="/proyectos" class="menu-link" active-class="menu-link-active">Proyectos</RouterLink>
@@ -36,13 +39,18 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .menu-link-active {
-  background: black;
-  color: white;
+  background: transparent;
+  color: black;
 }
 
 .menu-link:active,
 .menu-link:focus-visible {
-  background: black;
-  color: white;
+  background: transparent;
+  color: black;
+}
+
+.menu-icon-home {
+  position: relative;
+  top: 2px;
 }
 </style>

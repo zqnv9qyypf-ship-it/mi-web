@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-white text-black h-screen flex flex-col justify-start items-start text-left font-[Helvetica] p-8">
-    <h1 class="text-5xl font-bold mb-4">¡Hola! Soy Inés</h1>
+  <header class="bg-white text-black h-screen flex flex-col justify-start items-start text-left p-8">
+    <h1 class="text-5xl font-bold mb-4 adobe-title">¡Hola! Soy Inés</h1>
     <p class="text-xl mb-6">Diseñadora gráfica | Portafolio Personal</p>
   </header>
 </template>
@@ -12,3 +12,9 @@ export default defineComponent({
   name: 'Header'
 })
 </script>
+
+<style scoped>
+.adobe-title {
+  font-family: "Bigfish", "bigfish", Helvetica, Arial, sans-serif;
+}
+</style>
