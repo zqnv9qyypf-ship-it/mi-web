@@ -4,16 +4,13 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main class="font-[Helvetica]">
-    <nav class="w-full border-b border-black bg-white">
+  <main class="font-[Helvetica] bg-[#f8f4ee] min-h-screen">
+    <nav class="w-full border-b border-black bg-[#f8f4ee]">
       <ul class="flex flex-wrap items-center gap-1 px-2 py-2 sm:gap-2 sm:px-4 sm:py-3">
         <li>
           <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active" aria-label="Home">
             <Armchair :size="20" class="menu-icon-home" />
           </RouterLink>
-        </li>
-        <li>
-          <RouterLink to="/proyectos" class="menu-link" active-class="menu-link-active">Proyectos</RouterLink>
         </li>
         <li>
           <RouterLink to="/sobre-mi" class="menu-link" active-class="menu-link-active">Sobre mi</RouterLink>
@@ -36,7 +33,7 @@ import { RouterLink, RouterView } from 'vue-router'
   padding: 0.55rem 0.75rem;
   color: black;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.9rem;
   line-height: 1;
 }
@@ -51,6 +48,7 @@ import { RouterLink, RouterView } from 'vue-router'
 .menu-link-active {
   background: transparent;
   color: black;
+  font-weight: 700;
 }
 
 .menu-link:active,
