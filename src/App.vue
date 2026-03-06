@@ -4,9 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main class="font-[Helvetica] bg-[#f8f4ee] min-h-screen">
-    <nav class="w-full border-b border-black bg-[#f8f4ee]">
-      <ul class="flex flex-wrap items-center gap-1 px-2 py-2 sm:gap-2 sm:px-4 sm:py-3">
+  <main class="font-[Helvetica] bg-[#fcfaf6] min-h-screen">
+    <nav class="w-full border-b border-black bg-[#fcfaf6]">
+      <ul class="flex w-full flex-wrap items-center justify-start gap-1 px-2 py-2 sm:gap-2 sm:px-4 sm:py-3">
         <li>
           <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active" aria-label="Home">
             <Armchair :size="20" class="menu-icon-home" />
@@ -30,11 +30,11 @@ import { RouterLink, RouterView } from 'vue-router'
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.55rem 0.75rem;
+  padding: 0.55rem 0.7rem;
   color: black;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   line-height: 1;
 }
 
