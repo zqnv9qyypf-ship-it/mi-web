@@ -4,8 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main class="font-[Helvetica] bg-[#fcfaf6] min-h-screen">
-    <nav class="w-full border-b border-black bg-[#fcfaf6]">
+  <main class="font-[Helvetica] bg-[#87CEEB] min-h-screen">
+    <nav class="w-full border-b border-black bg-[#87CEEB]">
       <ul class="flex w-full flex-wrap items-center justify-start gap-1 px-2 py-2 sm:gap-2 sm:px-4 sm:py-3">
         <li>
           <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active" aria-label="Home">
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
   align-items: center;
   justify-content: center;
   padding: 0.55rem 0.7rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.86rem;
@@ -47,14 +47,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
 .menu-link-active {
   background: transparent;
-  color: black;
+  color: rgb(239 68 68 / 0.9);
   font-weight: 700;
 }
 
 .menu-link:active,
 .menu-link:focus-visible {
   background: transparent;
-  color: black;
+  color: rgb(239 68 68 / 0.9);
 }
 
 .menu-icon-home {
