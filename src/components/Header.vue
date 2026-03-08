@@ -15,19 +15,19 @@
           <div class="absolute inset-0 z-40">
             <RouterLink
               to="/proyecto-1"
-              class="absolute top-[35%] left-[24%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[50%] left-[18%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
               Proyecto 1
             </RouterLink>
             <RouterLink
               to="/proyecto-2"
-              class="absolute top-[45%] left-[62%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[54%] left-[62%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
               Proyecto 2
             </RouterLink>
             <RouterLink
               to="/proyecto-3"
-              class="absolute top-[66%] left-[34%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[71%] left-[34%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
               Proyecto 3
             </RouterLink>
