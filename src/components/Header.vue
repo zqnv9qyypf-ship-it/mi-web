@@ -1,6 +1,6 @@
 <template>
   <header class="relative overflow-hidden text-white h-[calc(100svh-56px)] sm:h-[calc(100vh-64px)] flex flex-col justify-center items-start text-left px-4 py-5 sm:px-8 sm:py-8">
-    <div class="relative z-10 w-full pt-4 md:pt-8 lg:pt-10">
+    <div class="relative z-10 w-full pt-0 md:pt-4 lg:pt-6">
       <h1 class="relative z-20 block w-full text-center text-[4.6rem] md:text-[7.5rem] lg:text-[13rem] leading-[0.9] font-bold text-white adobe-title mb-0 mt-8 md:mt-12 lg:mt-20">
         Portfolio
       </h1>
