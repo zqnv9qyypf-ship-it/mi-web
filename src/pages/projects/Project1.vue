@@ -1,7 +1,7 @@
 <template>
   <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
     <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Proyecto 1. Tipografía.</h1>
-    <p class="text-base sm:text-lg text-black mb-6">Para este proyecto desarrollé una tipografía original, inspirandome en la ropa denim y dándole un toque asimétrico.  </p>
+    <p class="text-base sm:text-lg text-black mb-6">Para este proyecto desarrollé una tipografía original, inspirandome en la ropa denim y dándole un toque asimétrico. (¡Toca las imágenes!) </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
       <div v-for="(image, index) in images" :key="image.src" class="text-center">
