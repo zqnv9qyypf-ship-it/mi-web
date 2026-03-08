@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <p class="text-base sm:text-lg text-black mt-6 max-w-5xl">
+    <p class="text-base sm:text-lg text-black mt-6 max-w-5xl mx-auto text-center">
       Martin Parr es un artista que usa un tono muy irónico. Tiene una forma muy directa de mostrar lo absurdo de lo cotidiano, sin necesidad de exagerar. Su mirada crítica, pero sin dramatismo, consigue que uno se ría y, al mismo tiempo, se dé cuenta de lo ridículo que puede ser lo que damos por normal. Técnicamente, destaca por el uso del flash y los colores saturados, que refuerzan ese efecto exagerado y casi grotesco de la realidad que retrata.
     </p>
   </section>
