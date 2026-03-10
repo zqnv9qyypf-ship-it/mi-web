@@ -9,24 +9,21 @@
       Para este proyecto ilustré una nueva versión del libro "Alicia en el país de las maravillas" utilizando pintura acrílica.
     </p>
 
-    <div v-if="selectedIndex === null" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
       <div v-for="(image, index) in images" :key="image.src" class="text-center">
         <img
           :src="image.src"
           :alt="image.alt"
-          class="w-full aspect-square rounded-md object-cover bg-white cursor-pointer transition-all duration-300"
+          class="w-full h-auto rounded-md object-contain bg-white cursor-pointer transition-all duration-300"
+          :class="selectedIndex === index ? '-translate-y-3 shadow-lg' : 'translate-y-0'"
           @click="toggleImage(index)"
         />
-      </div>
-    </div>
-
-    <div v-else class="mt-8 flex justify-center">
-      <div class="w-full max-w-3xl cursor-pointer" @click="toggleImage(selectedIndex)">
-        <img
-          :src="images[selectedIndex].src"
-          :alt="images[selectedIndex].alt"
-          class="block w-full aspect-square object-cover rounded-md"
-        />
+        <p
+          class="mt-3 text-sm sm:text-base text-[#3b2a1a] transition-opacity duration-300"
+          :class="selectedIndex === index ? 'opacity-100' : 'opacity-0 pointer-events-none'"
+        >
+          {{ image.text }}
+        </p>
       </div>
     </div>
 
@@ -39,9 +36,13 @@ import { ref } from "vue"
 const selectedIndex = ref<number | null>(null)
 
 const images = [
-  { src: "/proyecto 5/MOCKUP22.png", alt: "Ilustración 1", text: "Ilustración 1." },
-  { src: "/proyecto 5/MOCKUP11.png", alt: "Ilustración 2", text: "Ilustración 2." },
-  { src: "/proyecto 5/MOCKUP33.png", alt: "Ilustración 3", text: "Ilustración 3." },
+  {
+    src: "/proyecto 5/MOCKUP22.png",
+    alt: "Ilustración 1",
+    text: "Primero, tras buscar algunas referencias, elegí lo que iba a representar en cada parte del libro.",
+  },
+  { src: "/proyecto 5/MOCKUP11.png", alt: "Ilustración 2", text: "Después dibujé y pinté todas las ilustraciones." },
+  { src: "/proyecto 5/MOCKUP33.png", alt: "Ilustración 3", text: "Finalmente añadí y maqueté los textos, y monté los mockups." },
 ]
 
 const toggleImage = (index: number) => {
