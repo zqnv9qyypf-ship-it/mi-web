@@ -1,7 +1,7 @@
 <template>
   <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
-    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Proyecto 4. Maquetación.</h1>
-    <p class="text-base sm:text-lg text-black mb-6">Toca la imagen para pasar al siguiente mockup.</p>
+    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Maquetación</h1>
+    <p class="text-base sm:text-lg text-black mb-6">Para este proyecto tuve que maquetar un artículo en el que predominase la jerarquía y el buen diseño sobre la creatividad, aun que mateniendo a su vez la estética.</p>
 
     <div class="mx-auto w-full max-w-5xl">
       <div class="relative h-[72vh] overflow-hidden cursor-pointer" @click="nextSlide">
@@ -42,8 +42,8 @@
 import { ref } from "vue"
 
 const slides = [
-  { id: 1, src: "/proyecto 1/proyecto 4/mockup1.png", alt: "Proyecto 4 - mockup 1" },
-  { id: 2, src: "/proyecto 1/proyecto 4/mockup2.png", alt: "Proyecto 4 - mockup 2" },
+  { id: 1, src: "/proyecto 1/proyecto 4/mockup1.png", alt: "Maquetación - mockup 1" },
+  { id: 2, src: "/proyecto 1/proyecto 4/mockup2.png", alt: "Maquetación - mockup 2" },
 ]
 
 const currentIndex = ref(0)

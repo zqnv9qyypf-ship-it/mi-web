@@ -14,12 +14,14 @@
 
     <div class="relative z-10 flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-10">
       <div class="w-full lg:w-1/2 lg:pr-4">
-        <h1 class="inline-block px-2 py-1 text-5xl sm:text-6xl font-bold mb-5 text-white adobe-title">¡Hola! Soy Inés</h1>
-        <p class="text-base sm:text-lg text-black mt-2">
-          Mi nombre es Inés Pérez Cano y estudio Diseño y Tecnologías Creativas en la UPV. Me gusta crear proyectos con identidad propia combinando arte y tecnología, cuidando tanto la estética como la funcionalidad.
-          En este portfolio comparto una selección de trabajos que reflejan mi proceso, mis referencias y mi forma
-          de entender el diseño.
-        </p>
+        <div class="w-full rounded-lg border border-white/70 bg-white/20 p-5 text-white backdrop-blur-sm">
+          <h1 class="inline-block px-2 py-1 text-5xl sm:text-6xl font-bold mb-5 text-white adobe-title">¡Hola! Soy Inés</h1>
+          <p class="text-base sm:text-lg text-black mt-2">
+            Mi nombre es Inés Pérez Cano y estudio Diseño y Tecnologías Creativas en la UPV. Me gusta crear proyectos con identidad propia combinando arte y tecnología, cuidando tanto la estética como la funcionalidad.
+            En este portfolio comparto una selección de trabajos que reflejan mi proceso, mis referencias y mi forma
+            de entender el diseño.
+          </p>
+        </div>
       </div>
 
       <div class="w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-0 lg:-translate-x-24 lg:translate-y-16">

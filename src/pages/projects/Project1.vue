@@ -1,6 +1,6 @@
 <template>
   <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
-    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Proyecto 1. Tipografía.</h1>
+    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Tipografía</h1>
     <p class="text-base sm:text-lg text-black mb-6">Para este proyecto desarrollé una tipografía original, inspirandome en la ropa denim y dándole un toque asimétrico. (¡Toca las imágenes!) </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
@@ -31,17 +31,17 @@ const selectedIndex = ref<number | null>(null)
 const images = [
   {
     src: "/proyecto 1/proyecto3/letra1.png",
-    alt: "Proyecto 1 - letra 1",
+    alt: "Tipografía - letra 1",
     text: "Usando dos pantalones vaqueros de distinto tono, dibujé y diseñé el trazo de dos letras, una ligeramente más grande que la otra. ",
   },
   {
     src: "/proyecto 1/proyecto3/letra2.png",
-    alt: "Proyecto 1 - letra 2",
+    alt: "Tipografía - letra 2",
     text: "Después recorté ambas letras y las cosí a mano con hilo dorado.",
   },
   {
     src: "/proyecto 1/proyecto3/letra3.png",
-    alt: "Proyecto 1 - letra 3",
+    alt: "Tipografía - letra 3",
     text: "Y por último usé camisetas de rayas variadas para hacer los fondos y así seguir con esa temática textil.",
   },
 ]

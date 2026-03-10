@@ -15,27 +15,33 @@
           <div class="absolute inset-0 z-40">
             <RouterLink
               to="/proyecto-1"
-              class="absolute top-[50%] left-[18%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[45%] left-[62%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
-              Proyecto 1
+              Tipografía
             </RouterLink>
             <RouterLink
               to="/proyecto-2"
-              class="absolute top-[54%] left-[62%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[52%] left-[20%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
-              Proyecto 2
+              Fotografía
             </RouterLink>
             <RouterLink
               to="/proyecto-3"
-              class="absolute top-[71%] left-[34%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[65%] left-[36%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
-              Proyecto 3
+              Diseño
             </RouterLink>
             <RouterLink
               to="/proyecto-4"
-              class="absolute top-[77%] left-[66%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+              class="absolute top-[70%] left-[70%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
             >
-              Proyecto 4
+              Maquetación
+            </RouterLink>
+            <RouterLink
+              to="/proyecto-5"
+              class="absolute top-[82%] left-[52%] -translate-x-1/2 -translate-y-1/2 bg-white/20 text-white border border-white px-2.5 py-1 text-xs lg:px-3.5 lg:py-1.5 lg:text-sm font-semibold whitespace-nowrap"
+            >
+              Ilustración
             </RouterLink>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Project1 from "@/pages/projects/Project1.vue";
 import Project2 from "@/pages/projects/Project2.vue";
 import Project3 from "@/pages/projects/Project3.vue";
 import Project4 from "@/pages/projects/Project4.vue";
+import Project5 from "@/pages/projects/Project5.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 
@@ -47,6 +48,11 @@ export const router = createRouter({
       path: '/proyecto-4',
       name: 'project-4',
       component: Project4
+    },
+    {
+      path: '/proyecto-5',
+      name: 'project-5',
+      component: Project5
     },
     {
       path: '/:pathMatch(.*)*',
