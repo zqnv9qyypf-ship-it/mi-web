@@ -1,12 +1,12 @@
 <template>
-  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
+  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#F7B5C8]">
     
-    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#F7B5C8]">
       Ilustración
     </h1>
 
-    <p class="text-base sm:text-lg text-black mb-6">
-      Para estas ilustraciones me basé en el libro de "Alicia en el país de las maravillas" realizando una nueva versión.
+    <p class="text-base sm:text-lg text-[#3b2a1a] mb-6">
+      Para este proyecto ilustré una nueva versión del libro "Alicia en el país de las maravillas" utilizando pintura acrílica.
     </p>
 
     <div v-if="selectedIndex === null" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">

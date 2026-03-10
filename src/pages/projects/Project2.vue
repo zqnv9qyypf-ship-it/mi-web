@@ -1,7 +1,7 @@
 <template>
-  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
-    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Fotografía</h1>
-    <p class="text-base sm:text-lg text-black mb-6">En grupo, realizamos una sesión de fotos inspirada en el fotógrafo Martin Parr.</p>
+  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#F7B5C8]">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#F7B5C8]">Fotografía</h1>
+    <p class="text-base sm:text-lg text-[#3b2a1a] mb-6">En grupo, realizamos una sesión de fotos inspirada en el fotógrafo Martin Parr.</p>
 
     <div class="mx-auto w-full max-w-6xl">
       <div
@@ -29,14 +29,14 @@
           :key="slide.id"
           type="button"
           class="h-2.5 w-2.5 rounded-full transition-colors"
-          :class="index === currentIndex ? 'bg-[#87CEEB]' : 'bg-[#87CEEB]/30'"
+          :class="index === currentIndex ? 'bg-[#F7B5C8]' : 'bg-[#F7B5C8]/30'"
           :aria-label="`Ir a la diapositiva ${index + 1}`"
           @click="goToSlide(index)"
         />
       </div>
     </div>
 
-    <p class="text-base sm:text-lg text-black mt-6 max-w-5xl mx-auto text-center">
+    <p class="text-base sm:text-lg text-[#3b2a1a] mt-6 max-w-5xl mx-auto text-center">
       Martin Parr es un artista que usa un tono muy irónico. Tiene una forma muy directa de mostrar lo absurdo de lo cotidiano, sin necesidad de exagerar. Su mirada crítica, pero sin dramatismo, consigue que uno se ría y, al mismo tiempo, se dé cuenta de lo ridículo que puede ser lo que damos por normal. Técnicamente, destaca por el uso del flash y los colores saturados, que refuerzan ese efecto exagerado y casi grotesco de la realidad que retrata.
     </p>
   </section>

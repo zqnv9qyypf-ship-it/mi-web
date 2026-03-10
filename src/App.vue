@@ -4,8 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main class="font-[Helvetica] bg-[#87CEEB] min-h-screen">
-    <nav class="w-full border-b border-white bg-[#87CEEB]">
+  <main class="font-[Helvetica] bg-[#F7B5C8] min-h-screen">
+    <nav class="w-full border-b border-white bg-[#F7B5C8]">
       <ul class="flex w-full flex-wrap items-center justify-start gap-1 px-2 py-2 sm:gap-2 sm:px-4 sm:py-3">
         <li>
           <RouterLink to="/" class="menu-link" active-class="menu-link-active" exact-active-class="menu-link-active" aria-label="Home">

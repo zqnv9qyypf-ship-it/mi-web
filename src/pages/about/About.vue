@@ -14,13 +14,25 @@
 
     <div class="relative z-10 flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-10">
       <div class="w-full lg:w-1/2 lg:pr-4">
-        <div class="w-full rounded-lg border border-white/70 bg-white/20 p-5 text-white backdrop-blur-sm">
-          <h1 class="inline-block px-2 py-1 text-5xl sm:text-6xl font-bold mb-5 text-white adobe-title">¡Hola! Soy Inés</h1>
-          <p class="text-base sm:text-lg text-black mt-2">
-            Mi nombre es Inés Pérez Cano y estudio Diseño y Tecnologías Creativas en la UPV. Me gusta crear proyectos con identidad propia combinando arte y tecnología, cuidando tanto la estética como la funcionalidad.
-            En este portfolio comparto una selección de trabajos que reflejan mi proceso, mis referencias y mi forma
-            de entender el diseño.
-          </p>
+        <h1 class="inline-block px-2 py-1 text-5xl sm:text-6xl font-bold mb-5 text-white adobe-title">¡Hola! Soy Inés</h1>
+        <p class="text-base sm:text-lg text-[#3b2a1a]">
+          Mi nombre es Inés Pérez Cano y estudio Diseño y Tecnologías Creativas en la UPV. Me gusta crear proyectos con identidad propia combinando arte y tecnología, cuidando tanto la estética como la funcionalidad.
+          En este portfolio comparto una selección de trabajos que reflejan mi proceso, mis referencias y mi forma
+          de entender el diseño.
+        </p>
+
+        <div class="mt-6 text-[#3b2a1a]">
+          <h2 class="text-sm uppercase tracking-wide font-semibold mb-2">Estudios</h2>
+          <p class="text-sm sm:text-base mb-4">Diseño y Tecnologías Creativas - UPV</p>
+
+          <h2 class="text-sm uppercase tracking-wide font-semibold mb-2">Habilidades</h2>
+          <ul class="text-sm sm:text-base flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded-md bg-white/60">Identidad visual</li>
+            <li class="px-2 py-1 rounded-md bg-white/60">Editorial</li>
+            <li class="px-2 py-1 rounded-md bg-white/60">Fotografia</li>
+            <li class="px-2 py-1 rounded-md bg-white/60">Ilustracion</li>
+            <li class="px-2 py-1 rounded-md bg-white/60">Maquetacion</li>
+          </ul>
         </div>
       </div>
 

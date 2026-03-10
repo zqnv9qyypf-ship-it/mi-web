@@ -1,7 +1,7 @@
 <template>
-  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#87CEEB]">
-    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#87CEEB]">Maquetación</h1>
-    <p class="text-base sm:text-lg text-black mb-6">Para este proyecto tuve que maquetar un artículo en el que predominase la jerarquía y el buen diseño sobre la creatividad, aun que mateniendo a su vez la estética.</p>
+  <section class="px-4 py-6 sm:p-8 min-h-[calc(100svh-56px)] sm:min-h-[calc(100vh-64px)] bg-white text-[#F7B5C8]">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-3 adobe-title text-[#F7B5C8]">Maquetación</h1>
+    <p class="text-base sm:text-lg text-[#3b2a1a] mb-6">Para este proyecto tuve que maquetar un artículo en el que predominase la jerarquía y el buen diseño sobre la creatividad, aun que mateniendo a su vez la estética.</p>
 
     <div class="mx-auto w-full max-w-5xl">
       <div class="relative h-[72vh] overflow-hidden cursor-pointer" @click="nextSlide">
@@ -29,7 +29,7 @@
           :key="slide.id"
           type="button"
           class="h-2.5 w-2.5 rounded-full transition-colors"
-          :class="index === currentIndex ? 'bg-[#87CEEB]' : 'bg-[#87CEEB]/30'"
+          :class="index === currentIndex ? 'bg-[#F7B5C8]' : 'bg-[#F7B5C8]/30'"
           :aria-label="`Ir a la diapositiva ${index + 1}`"
           @click="goToSlide(index)"
         />

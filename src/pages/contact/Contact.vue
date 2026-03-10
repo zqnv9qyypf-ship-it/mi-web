@@ -14,7 +14,7 @@
 
     <div class="relative z-10">
       <h1 class="inline-block px-2 py-1 text-3xl sm:text-4xl font-bold mb-3 text-white adobe-title">¡Contactame!</h1>
-      <p class="text-base sm:text-lg text-black">Escribeme para colaboraciones o nuevos proyectos.</p>
+      <p class="text-base sm:text-lg text-[#3b2a1a]">Escribeme para colaboraciones o nuevos proyectos.</p>
 
       <div class="mt-6 w-full max-w-xl mx-auto rounded-lg border border-white/70 bg-white/20 p-5 text-white backdrop-blur-sm">
         <p class="text-sm sm:text-base mb-2 flex items-center gap-2">
@@ -30,19 +30,23 @@
         <form class="mt-6 space-y-3">
           <div>
             <label for="name" class="block text-sm font-semibold mb-1">Nombre</label>
-            <input id="name" type="text" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-black placeholder:text-gray-500" placeholder="Tu nombre" />
+            <input id="name" type="text" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-[#3b2a1a] placeholder:text-gray-500" placeholder="Tu nombre" />
           </div>
           <div>
             <label for="email" class="block text-sm font-semibold mb-1">Correo</label>
-            <input id="email" type="email" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-black placeholder:text-gray-500" placeholder="tuemail@ejemplo.com" />
+            <input id="email" type="email" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-[#3b2a1a] placeholder:text-gray-500" placeholder="tuemail@ejemplo.com" />
           </div>
           <div>
             <label for="message" class="block text-sm font-semibold mb-1">Mensaje</label>
-            <textarea id="message" rows="4" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-black placeholder:text-gray-500" placeholder="Cuéntame sobre tu proyecto"></textarea>
+            <textarea id="message" rows="4" class="w-full rounded-md border border-white/60 bg-white/90 px-3 py-2 text-[#3b2a1a] placeholder:text-gray-500" placeholder="Cuéntame sobre tu proyecto"></textarea>
           </div>
-          <button type="submit" class="rounded-md border border-white bg-white/20 px-4 py-2 text-sm font-semibold text-white hover:bg-white/30">
+          <Button
+            type="submit"
+            variant="outline"
+            class="border-white bg-white/20 text-white hover:bg-white/30"
+          >
             Enviar mensaje
-          </button>
+          </Button>
         </form>
       </div>
     </div>
@@ -50,6 +54,7 @@
 </template>
 
 <script setup lang="ts">
+import { Button } from "@/components/ui/button"
 import { Mail, Phone } from 'lucide-vue-next'
 import { Star } from 'lucide-vue-next'
 </script>
