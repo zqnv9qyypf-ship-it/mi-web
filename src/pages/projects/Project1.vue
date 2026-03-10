@@ -30,17 +30,17 @@ const selectedIndex = ref<number | null>(null)
 
 const images = [
   {
-    src: "/proyecto 1/proyecto3/letra1.png",
+    src: "/proyecto-1/proyecto3/letra1.png",
     alt: "Tipografía - letra 1",
     text: "Usando dos pantalones vaqueros de distinto tono, dibujé y diseñé el trazo de dos letras, una ligeramente más grande que la otra. ",
   },
   {
-    src: "/proyecto 1/proyecto3/letra2.png",
+    src: "/proyecto-1/proyecto3/letra2.png",
     alt: "Tipografía - letra 2",
     text: "Después recorté ambas letras y las cosí a mano con hilo dorado.",
   },
   {
-    src: "/proyecto 1/proyecto3/letra3.png",
+    src: "/proyecto-1/proyecto3/letra3.png",
     alt: "Tipografía - letra 3",
     text: "Y por último usé camisetas de rayas variadas para hacer los fondos y así seguir con esa temática textil.",
   },

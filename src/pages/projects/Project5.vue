@@ -37,12 +37,12 @@ const selectedIndex = ref<number | null>(null)
 
 const images = [
   {
-    src: "/proyecto 5/MOCKUP22.png",
+    src: "/proyecto-5/MOCKUP22.png",
     alt: "Ilustración 1",
     text: "Primero, tras buscar algunas referencias, elegí lo que iba a representar en cada parte del libro.",
   },
-  { src: "/proyecto 5/MOCKUP11.png", alt: "Ilustración 2", text: "Después dibujé y pinté todas las ilustraciones." },
-  { src: "/proyecto 5/MOCKUP33.png", alt: "Ilustración 3", text: "Finalmente añadí y maqueté los textos, y monté los mockups." },
+  { src: "/proyecto-5/MOCKUP11.png", alt: "Ilustración 2", text: "Después dibujé y pinté todas las ilustraciones." },
+  { src: "/proyecto-5/MOCKUP33.png", alt: "Ilustración 3", text: "Finalmente añadí y maqueté los textos, y monté los mockups." },
 ]
 
 const toggleImage = (index: number) => {

@@ -38,7 +38,7 @@
 
       <div class="w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-0 lg:-translate-x-24 lg:translate-y-16">
         <img
-          src="/sobre mi/yop.png"
+          src="/sobre-mi/yop.png"
           alt="Foto de Inés"
           class="w-full max-w-sm sm:max-w-md lg:max-w-xl h-auto object-contain rounded-md"
         />

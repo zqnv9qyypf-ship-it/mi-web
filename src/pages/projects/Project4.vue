@@ -42,8 +42,8 @@
 import { ref } from "vue"
 
 const slides = [
-  { id: 1, src: "/proyecto 1/proyecto 4/mockup1.png", alt: "Maquetación - mockup 1" },
-  { id: 2, src: "/proyecto 1/proyecto 4/mockup2.png", alt: "Maquetación - mockup 2" },
+  { id: 1, src: "/proyecto-1/proyecto-4/mockup1.png", alt: "Maquetación - mockup 1" },
+  { id: 2, src: "/proyecto-1/proyecto-4/mockup2.png", alt: "Maquetación - mockup 2" },
 ]
 
 const currentIndex = ref(0)

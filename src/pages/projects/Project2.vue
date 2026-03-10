@@ -46,12 +46,12 @@
 import { ref } from "vue"
 
 const slides = [
-  { id: 2, src: "/proyecto 2/piesplaya.png", alt: "Fotografía - pies playa" },
-  { id: 6, src: "/proyecto 2/ilovegreece.png", alt: "Fotografía - i love greece" },
-  { id: 3, src: "/proyecto 2/piespablo.png", alt: "Fotografía - pies pablo" },
-  { id: 5, src: "/proyecto 2/beatles.png", alt: "Fotografía - beatles" },
-  { id: 1, src: "/proyecto 2/maleta.png", alt: "Fotografía - maleta" },
-  { id: 4, src: "/proyecto 2/dino.png", alt: "Fotografía - dino" },
+  { id: 2, src: "/proyecto-2/piesplaya.png", alt: "Fotografía - pies playa" },
+  { id: 6, src: "/proyecto-2/ilovegreece.png", alt: "Fotografía - i love greece" },
+  { id: 3, src: "/proyecto-2/piespablo.png", alt: "Fotografía - pies pablo" },
+  { id: 5, src: "/proyecto-2/beatles.png", alt: "Fotografía - beatles" },
+  { id: 1, src: "/proyecto-2/maleta.png", alt: "Fotografía - maleta" },
+  { id: 4, src: "/proyecto-2/dino.png", alt: "Fotografía - dino" },
 ]
 
 const currentIndex = ref(0)

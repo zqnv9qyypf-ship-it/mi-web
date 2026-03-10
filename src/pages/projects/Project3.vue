@@ -8,7 +8,7 @@
     <div class="space-y-8">
       <div class="relative w-full max-w-4xl mx-auto">
         <img
-          src="/proyecto 1/Pérez-Inés+Mena-Julia-cartelgeometria.jpg"
+          src="/proyecto-1/Perez-Ines+Mena-Julia-cartelgeometria.jpg"
           alt="Cartel teatral geometría"
           class="w-full max-h-[86vh] h-auto object-contain transition-transform duration-500 ease-out cursor-pointer"
           :class="{ '-translate-x-8 sm:-translate-x-12': movedFirst }"
@@ -24,7 +24,7 @@
 
       <div class="relative w-full max-w-4xl mx-auto">
         <img
-          src="/proyecto 1/PerezCano-Ines+MenaPerezJulia-cartelfinal-sinreticula.jpg"
+          src="/proyecto-1/PerezCano-Ines+MenaPerezJulia-cartelfinal-sinreticula.jpg"
           alt="Cartel teatral final"
           class="w-full max-h-[86vh] h-auto object-contain transition-transform duration-500 ease-out cursor-pointer"
           :class="{ '-translate-x-8 sm:-translate-x-12': movedSecond }"
